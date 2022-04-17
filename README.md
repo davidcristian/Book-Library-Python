@@ -1,4 +1,4 @@
-### 4. Library
+### Library
 Write an application for a book library. The application will store:
 - **Book**: `book_id`, `title`, `author`
 - **Client**: `client_id`, `name`
