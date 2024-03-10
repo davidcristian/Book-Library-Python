@@ -89,9 +89,9 @@ class ClientRepositoryTest(unittest.TestCase):
         client_repository.add(client2)
         client_repository.add(client3)
 
-        self.assertEqual(client_repository.search_client_by_id(0), [client1])
-        self.assertEqual(client_repository.search_client_by_id(1), [client2])
-        self.assertEqual(client_repository.search_client_by_id(2), [client3])
+        self.assertEqual(client_repository.search_client_by_id(0), client1)
+        self.assertEqual(client_repository.search_client_by_id(1), client2)
+        self.assertEqual(client_repository.search_client_by_id(2), client3)
 
     def test_search_client_by_name(self) -> None:
         """

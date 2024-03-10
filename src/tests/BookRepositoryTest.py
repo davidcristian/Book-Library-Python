@@ -92,9 +92,9 @@ class BookRepositoryTest(unittest.TestCase):
         book_repository.add(book2)
         book_repository.add(book3)
 
-        self.assertEqual(book_repository.search_book_by_id(0), [book1])
-        self.assertEqual(book_repository.search_book_by_id(1), [book2])
-        self.assertEqual(book_repository.search_book_by_id(2), [book3])
+        self.assertEqual(book_repository.search_book_by_id(0), book1)
+        self.assertEqual(book_repository.search_book_by_id(1), book2)
+        self.assertEqual(book_repository.search_book_by_id(2), book3)
 
     def test_search_book_by_title(self) -> None:
         """
