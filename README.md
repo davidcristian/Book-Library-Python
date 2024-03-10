@@ -21,15 +21,23 @@ The application utilizes file-based repositories for persistence. It can be conf
 
 The application includes a reusable Python module with an iterable data structure, a unique sorting algorithm, and a filter method. This module is accompanied by comprehensive PyUnit tests ensuring 100% coverage.
 
-## Installation and Setup
+## Getting Started
 
-- Clone the repository.
-- Configure the application using the `settings.properties` file.
+### Prerequisites
+
+- Python 3.11
+
+### Installation
+
+1. Clone the repository.
+
+2. Configure the application using the `settings.properties` file.
 
 ## Usage
 
-- Run the `main.py` file having `src` as the working directory.
-- Follow the on-screen prompts to manage the library.
+1. Run the `main.py` file having `src` as the working directory.
+
+2. Follow the on-screen prompts to manage the library.
 
 ## Preview
 
